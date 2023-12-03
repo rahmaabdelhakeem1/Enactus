@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <table border="1">
+      <thead>
+           <th>name</th>
+           <th>age</th>
+           <th>location</th>
+      </thead>
+      <tbody>
+            <tr>
+                <td>rahma</td>
+                <td>20</td>
+                <td>assiut</td>
+            </tr>        
+            <tr>
+                <td>kholod</td>
+                <td>20</td>
+                <td>elminia</td>
+            </tr>        
+            <tr>
+                <td>salma</td>
+                <td>22</td>
+                <td>sohag</td>
+            </tr>        
+      </tbody>
+
+    </table>
+    <hr>
+    <form>
+        <label for="UNAME"> user name  </label>
+        <input type="text" id="UNAME"/><br><br>
+        <label for="pass"> passward   </label>
+        <input type="text" id="pass"/><br><br>
+        <label for="CITY"> city of employment</label>
+        <input type="text" id="CITY"/>
+        <br><br>
+
+        <label for="web">web server</label>
+        <select id="choose a server"> 
+        <option value="choose a server">choose a server</option>
+    </select>  
+
+
+
+        <br><br>
+        <label for="job"> pleas specify role</label> 
+          <br>
+        <input type="radio" value ="admin" name="job">
+        <label for="job"> admin</label>
+          <br>
+        <input type="radio" value ="engineer" name="job">
+        <label for="job"> engineer</label>
+          <br>
+         <input type="radio" value ="manager" name="job">
+         <label for="job"> manager</label> 
+          <br>
+          <input type="radio" value ="guest" name="job">
+         <label for="job"> guest</label> 
+         <br> <br>
+
+
+         <label for="job"> single sign on</label> 
+          <br>
+        <input type="checkbox" value ="mail" name="job">
+        <label for="job"> mail </label><br>
+
+        <input type="checkbox" value ="payroll" name="job">
+        <label for="checkbox"> payroll</label> <br>
+
+        <input type="checkbox" value ="self service" name="job">
+        <label for="checkbox"> self service </label> <br><br>
+
+
+         <button>login</button>
+         <button>sub</button>
+    </form>
+</body>
+</html>
